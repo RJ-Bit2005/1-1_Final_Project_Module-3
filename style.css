@@ -8,6 +8,10 @@
     color: #243e63;
 }
 
+section {
+    padding: 0 32px;
+}
+
 .row {
     width: 100%;
     max-width: 1280px;
@@ -42,8 +46,12 @@ NAV BAR
 
 */
 
+#landing {
+
+}
+
 nav {
-   padding: 32px 24px 0;
+   padding: 32px 0px 0;
 }
 
 .nav__row {
@@ -55,7 +63,10 @@ nav {
 
 .nav__logo--title {
     font-size: 24px;
-    margin-left: 9px;
+    margin-left: 12px;
+    font-weight: 900;
+    padding-bottom: 2px;
+    letter-spacing: 0.6px;
 }
 
 .nav__logo--img {
@@ -78,6 +89,7 @@ nav {
     margin: 0 24px;
     font-size: 14px;
     font-weight: 600;
+    padding-top: 4px;
     letter-spacing: 0.35px;
     border-bottom: 2px solid transparent;
     position: relative;

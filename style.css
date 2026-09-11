@@ -220,3 +220,18 @@ Features
 
 */
 
+.row__narrow {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.feature__img {
+    height: 1px;
+    width: 1px
+}
+
+.feature__img--wrapper {
+    max-width: 24px;
+}
+

@@ -56,6 +56,18 @@ button {
     cursor: pointer;
 }
 
+.btn {
+    color: white;
+    background-color: #6415ff;
+    padding: 12px;
+    width: 150px;
+    border-radius: 500px;
+    border-style: none;
+    margin-top: 20px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+}
+
 .purple {
     color: #6415ff;
 }
@@ -308,4 +320,42 @@ Features
     color: rgb(124, 139, 161);
     line-height: 2;
     max-width: calc(634px / 3);
+}
+
+/*
+
+Quality Work 
+
+*/
+
+#quality .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quality__description {
+    max-width: 500px;
+}
+
+#quality .section__title {
+    line-height: 60.5px;
+}
+
+.quality__grid {
+    transform: translateX(50%) translateY(50%) scaleX(1) scaleY(1);
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    fill: rgb(100, 21, 255);
+    --tw-text-opacity: 1;
+    color: rgba(100, 21, 255, var(--tw-text-opacity));
+    z-index: 0;
+    display: block;
+}
+
+.quality__img {
+    z-index: 1;
 }

@@ -335,11 +335,16 @@ Quality Work
 }
 
 .quality__description {
-    max-width: 500px;
+    width: 620px;
 }
 
 #quality .section__title {
     line-height: 60.5px;
+    max-width: 500px;
+}
+
+#quality .section__para {
+    max-width: 520px;
 }
 
 .quality__grid {
@@ -358,4 +363,14 @@ Quality Work
 
 .quality__img {
     z-index: 1;
+    width: 550px;
+}
+
+.quality__img--wrapper {
+    border-radius: 4px;
+    border: 1px solid rgb(229, 231, 235);
+    position: relative;
+    margin: 0 56px;
+    z-index: 2;
+    display: flex;
 }

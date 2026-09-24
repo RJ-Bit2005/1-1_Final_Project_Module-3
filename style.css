@@ -380,3 +380,35 @@ Steps
 
 */
 
+.steps__img--wrapper {
+    display: flex;
+    max-width: 610px;
+    position: relative;
+}
+
+.steps__img {
+    z-index: 2;
+}
+
+.steps__grid {
+    position: absolute;
+    bottom: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10rem;
+    height: 10rem;
+    opacity: 0.8;
+    z-index: -10;
+    color: rgb(100, 21, 255);
+    fill: currentcolor;
+}
+
+.step__number {
+    font-size: 40px;
+}
+
+.steps__description {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 0 32px 64px;
+}

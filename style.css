@@ -446,3 +446,64 @@ Steps
     margin-left: 24px;
     max-width: 320px;
 }
+
+/* 
+
+Values
+
+*/
+
+.value__img {
+    width: 20px;
+    height: 20px;
+}
+
+.value:nth-child(1) .value__img--wrapper {
+    background-color: #9ae6b4;
+    border-radius: 50px;
+    padding: 6px;
+}
+
+.value:nth-child(2) .value__img--wrapper {
+    background-color: #feb2b2;
+    border-radius: 50px;
+    padding: 6px;
+}
+
+.values__description {
+    display: flex;
+    flex-direction: column;
+}
+
+.values__list {
+    display: flex;
+}
+
+.value__title {
+    display: flex;
+}
+
+#values .btn {
+    width: 140px; 
+    height: 40px;
+}
+
+.values__img {
+    width: 650px;
+}
+
+.value__name {
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 12px;
+    color: #243e63;
+}
+
+.value__para {
+    padding: 20px;
+}
+
+.value__para p {
+    font-size: 16px;
+    letter-spacing: 1.2px;
+}

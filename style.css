@@ -724,3 +724,12 @@ Pricing
 testimonials
 
 */
+
+.star__rating {
+    color: rgb(246 173 85);
+}
+
+.fa-star {
+    color: rgb(246 173 85);
+    margin: 24px;
+}
